@@ -36,7 +36,7 @@ Partitions Designed:
 	E. Decimals	
 	F. Column Length
 	G. Empty Data
-2: calculateRowTotal(Values2D data, int column)
+2. calculateRowTotal(Values2D data, int column)
 	A: Null Data
 	B: Positive Data
 	C: Negative Data
@@ -44,7 +44,7 @@ Partitions Designed:
 	E: Decimals	
 	F: Row Length
 	G: Empty Data
-3: createNumberArray2D(double[][] data):
+3. createNumberArray2D(double[][] data):
 	A: Variety of Positives/Negatives
 	B: Large Number
 	C: Negative Number
@@ -52,12 +52,12 @@ Partitions Designed:
 	E: One Value
 	F: Empty Array
 	G: Null Data
-4: getCumulativePercentages(KeyedValues data):
+4. getCumulativePercentages(KeyedValues data):
 	A: Two Values
 	B: Empty Data
 	C: All Zero Data
 	D: Null Data
-5: createNumberArray(double[] data):
+5. createNumberArray(double[] data):
 	A: Multiple values of both positive and negative
 	B: Single Negative
 	C: Zero
