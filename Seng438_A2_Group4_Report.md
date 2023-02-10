@@ -29,13 +29,13 @@ Before we can develop test cases we had to review the provided documentation on 
 
 Partitions Designed:
 1. calculateColumnTotal(Values2D data, int column)
-	A: Null Data
-	B: Positive Data
-	C: Negative Data
-	D: Large/Small Numbers
-	E: Decimals	
-	F: Column Length
-	G: Empty Data
+	A. Null Data
+	B. Positive Data
+	C. Negative Data
+	D. Large/Small Numbers
+	E. Decimals	
+	F. Column Length
+	G. Empty Data
 2: calculateRowTotal(Values2D data, int column)
 	A: Null Data
 	B: Positive Data
