@@ -29,6 +29,7 @@ Before we can develop test cases we had to review the provided documentation on 
 
 Partitions Designed:
 1. calculateColumnTotal(Values2D data, int column)
+
 	A. Null Data
 	
 	B. Positive Data
@@ -43,50 +44,88 @@ Partitions Designed:
 	
 	G. Empty Data
 2. calculateRowTotal(Values2D data, int column)
+
 	A: Null Data
+	
 	B: Positive Data
+	
 	C: Negative Data
+	
 	D: Large Numbers
+	
 	E: Decimals	
+	
 	F: Row Length
+	
 	G: Empty Data
-3. createNumberArray2D(double[][] data):
+3. createNumberArray2D(double[][] data)
+
 	A: Variety of Positives/Negatives
+	
 	B: Large Number
+	
 	C: Negative Number
+	
 	D: All Zeroes
+	
 	E: One Value
+	
 	F: Empty Array
+	
 	G: Null Data
-4. getCumulativePercentages(KeyedValues data):
+4. getCumulativePercentages(KeyedValues data)
+
 	A: Two Values
+	
 	B: Empty Data
+	
 	C: All Zero Data
+	
 	D: Null Data
-5. createNumberArray(double[] data):
+5. createNumberArray(double[] data)
+
 	A: Multiple values of both positive and negative
+	
 	B: Single Negative
+	
 	C: Zero
+	
 	D: Single Integer
+	
 	E: Empty Array
+	
 	F: Array Length
-6. getCentralValue():
+6. getCentralValue()
+
 	A: Correct Functionality
+	
 	B: Positive Value
+	
 	C: Negative Value
+	
 	D: Decimal Value
-7. getUpperBound():
+	
+7. getUpperBound()
+
 	A: Positive
+	
 	B: Negative
-8. getLowerBound():
-	A: Positive:
+8. getLowerBound()
+
+	A: Positive
+	
 	B: Negative
+	
 	C: Zero input
-9. getLength():
+9. getLength()
+
 	A: Valid input
+	
 	B: Zero length
-10. contains():
+10. contains()
+
 	A: Invalid Input
+	
 	B: Valid Input
 
 # 3 Test cases developed
