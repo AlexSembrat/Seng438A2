@@ -5,7 +5,7 @@
 
 
 | Group \#:         |  4  |
-| ----------------- | --- |b
+| ----------------- | --- |
 | Student Names:    |     |
 | Alexander Sembrat |     |
 | Andrew Howe       |     |
@@ -29,21 +29,21 @@ Before we can develop test cases we had to review the provided documentation on 
 
 Partitions Designed:
 1: calculateColumnTotal(Values2D data, int column):
-A: Null Data
-B: Positive Data
-C: Negative Data
-D: Large/Small Numbers
-E: Decimals	
-F: Column Length
-G: Empty Data
+	A: Null Data
+	B: Positive Data
+	C: Negative Data
+	D: Large/Small Numbers
+	E: Decimals	
+	F: Column Length
+	G: Empty Data
 2: calculateRowTotal(Values2D data, int column):
-A: Null Data
-B: Positive Data
-C: Negative Data
-D: Large Numbers
-E: Decimals	
-F: Row Length
-G: Empty Data
+	A: Null Data
+	B: Positive Data
+	C: Negative Data
+	D: Large Numbers
+	E: Decimals	
+	F: Row Length
+	G: Empty Data
 3: createNumberArray2D(double[][] data):
 	A: Variety of Positives/Negatives
 	B: Large Number
@@ -76,21 +76,12 @@ G: Empty Data
 	A: Positive:
 	B: Negative
 	C: Zero input
-
-
 9. getLength():
 	A: Valid input
 	B: Zero length
-
-
 10. contains():
 	A: Invalid Input
 	B: Valid Input
-
-
-
-
-
 
 # 3 Test cases developed
 
@@ -115,14 +106,6 @@ The following test cases were developed for the Range Class:
 | contains() | 10A | testContainsValid() | P |
 | contains() | 10B | testContainsInvalid() | P |
 | contains() | 10A | testContainsBoundry() | P |
-
-
-
-
-
-
-
-
 
 
 The following test cases were developed for the DataUtilities class:
