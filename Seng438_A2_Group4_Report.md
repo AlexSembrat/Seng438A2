@@ -16,9 +16,9 @@
 2. [Detailed Description of unit test strategy](#2-detailed-description-of-unit-test-strategy)
 3. [Test cases developed](#3-test-cases-developed)
 4. [The Benefits/Drawbacks of Mocking](#4-Benefits/Drawbacks-of-Mocking)
-5. [How the team work was divided and managed](#4-how-the-team-work-was-divided-and-managed)
-6. [Difficulties encountered, challenges overcome, and lessons learned](#5-difficulties-encountered-challenges-overcome-and-lessons-learned)
-7. [Comments/feedback on the lab itself](#6-commentsfeedback-on-the-lab-itself)
+5. [How the team work was divided and managed](#5-how-the-team-work-was-divided-and-managed)
+6. [Difficulties encountered, challenges overcome, and lessons learned](#6-difficulties-encountered-challenges-overcome-and-lessons-learned)
+7. [Comments/feedback on the lab itself](#7-commentsfeedback-on-the-lab-itself)
 
 
 # 1 Introduction
