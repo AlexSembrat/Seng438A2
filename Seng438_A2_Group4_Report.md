@@ -15,8 +15,8 @@
 1. [Introduction](#1-introduction) 
 2. [Detailed Description of unit test strategy](#2-detailed-description-of-unit-test-strategy)
 3. [Test cases developed](#3-test-cases-developed)
-4. [The Benefits/Drawbacks of Mocking](#4-Benefits/Drawbacks-of-Mocking)
-5. [How the team work was divided and managed](#5-how-the-team-work-was-divided-and-managed)
+4. [The Benefits/Drawbacks of Mocking](#4-Benefits-and-Drawbacks-of-Mocking)
+5. [How the team work was divided and managed](#5-How-the-team-work-and-effort-was-divided-and-managed)
 6. [Difficulties encountered, challenges overcome, and lessons learned](#6-difficulties-encountered-challenges-overcome-and-lessons-learned)
 7. [Comments/feedback on the lab itself](#7-commentsfeedback-on-the-lab-itself)
 
@@ -191,13 +191,13 @@ The following test cases were developed for the DataUtilities class:
 | createNumberArray() | 5F | testArrayLength() | P |
 
 
-# 4 Benefits/Drawbacks of Mocking
+# 4 Benefits and Drawbacks of Mocking
 
 
 Mocking provides a way to mimic behavior of a certain class without using that specific class. This is very beneficial if you are attempting to test a method which calls other methods or class objects which may produce unexpected behavior. In this regard, you can ensure that you are testing a specific functionality, and not picking up bugs from a different part of the program. There are some drawbacks of utilizing mocking in testing. Mocking simply mimics the behavior of a class and is therefore limited in its functionality and produced results. Thus, creating a mock of a class with all of the required functionality to complete a test may involve the same level of involvement as writing the class itself. So, mocking requires a lot of effort while potentially losing a lot of functionality. 
 
 
-# 5 How the team work/effort was divided and managed
+# 5 How the team work and effort was divided and managed
 
 
 We divided the methods to test up equally between group members. Some tests were harder to write than others so some members were assigned more tests to write than others. After we each wrote our tests we came together to review each other's tests to find any errors or any missed tests.
